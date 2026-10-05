@@ -1,0 +1,18 @@
+Data Pipeline & Cleaning Summary
+1.	Original Raw Data (cafe_sales.csv)
+o	Initial Size: 10,000 rows and 8 columns (Transaction ID, Item, Quantity, Price Per Unit, Total Spent, Payment Method, Location, Transaction Date).
+o	Data Quality Issues: High volume of placeholder string errors (ERROR, UNKNOWN) and missing (NaN) values scattered across all core fields.
+
+2.	Cleaning Steps Executed
+o	Item Column: Converted 'ERROR' / 'UNKNOWN' to NaN and dropped all missing rows (removed invalid/unidentifiable product transactions).
+o	Quantity Column: Converted 'ERROR' / 'UNKNOWN' to NaN, dropped remaining missing rows, and converted values to numeric integers.
+o	Location Column: Replaced 'ERROR' / 'UNKNOWN' with NaN and imputed all missing locations with "In-store".
+o	Price Per Unit Column: Standardized string errors to NaN, converted values to float numbers, and filled remaining missing prices with 1.
+o	Total Spent Column: Recalculated row-by-row using Quantity * Price Per Unit to guarantee 100% mathematical accuracy.
+o	Transaction Date Column: Replaced string errors, parsed entries to datetime, imputed missing dates with 31/03/2023, and formatted to pure date (YYYY-MM-DD).
+o	Payment Method Column: Replaced string errors and null entries with "Unknown".
+
+3.	Current Cleaned Data (cafe_sales_cleaned.csv)
+o	Final Size: 8,611 rows and 8 columns
+o	Rows Removed: 1,389 invalid rows dropped (where key identifiers like Item or Quantity were completely missing).
+o	Data Quality: 0 null/missing values remaining across all columns.
