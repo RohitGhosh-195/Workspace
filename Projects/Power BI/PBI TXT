@@ -52,4 +52,21 @@ There are also variables such as:
 •	Productivity drop percentage
 •	Absenteeism days
 These help analyze the potential impact of gaming behavior on productivity and regular responsibilities.
+____________________________________________________________________________________________________________________
+In this project, I first cleaned and transformed the dataset using Power Query and prepared the data for analysis.
+I created DAX measures to calculate important KPIs such as Total Players, Addiction Rate, Average Age, Average Addiction Score, Total Revenue, Average Monthly Spending and Productivity-related metrics.
+I then created three dashboard pages covering Player Demographics, Financial Insights, and Health, Productivity & Risk Assessment. I used different visualizations such as KPI cards, bar charts, column charts, donut charts, matrix tables and scatter plots to identify patterns and relationships.
+I also added slicers and filters for interactive analysis and used conditional formatting to highlight high and low values. Finally, I organized the visuals into a clear dashboard layout so that the insights could be easily understood."
 
+In short, the work I did was:
+- Data cleaning & transformation — Power Query
+- Data modeling — organized fields/relationships as required
+- DAX measures — KPIs and analytical calculations
+- KPI cards — overall performance indicators
+- Charts & visualizations — demographic, financial, health and productivity analysis
+- Matrix/table — behavioral cluster and mental-health comparison
+- Conditional formatting — highlighted high/low values
+- Slicers — Country, Occupation and other interactive filtering
+- Scatter plots — analyzed relationships such as addiction vs productivity and playtime vs spending
+- Dashboard design — organized the project into 3 focused pages
+- Insights — interpreted patterns and associations rather than just displaying numbers
