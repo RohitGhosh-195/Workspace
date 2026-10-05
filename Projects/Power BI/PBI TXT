@@ -1,1 +1,55 @@
+1. Dataset Summary
+What is the dataset about?
+The dataset contains information about gamers and their gaming behavior, along with demographic, financial, health, lifestyle, addiction, and productivity-related information.
+The main objective of analyzing this dataset is to understand:
+How gaming behavior and gaming addiction are associated with players' lifestyle, mental-health indicators, spending behavior, and productivity.
+________________________________________
+What type of information does the dataset contain?
+The dataset can broadly be divided into five categories.
+1. Demographic information
+This includes variables such as:
+•	Age
+•	Gender
+•	Country
+•	Occupation
+•	Years of gaming
+•	User/player information
+These variables help us understand who the players are.
+________________________________________
+2. Gaming behavior
+The dataset contains information related to:
+•	Daily playtime
+•	Weekend playtime
+•	Gaming platform/device
+•	Preferred gaming genre
+•	Behavioral cluster
+•	Addiction score
+•	Addiction severity
+•	Addiction status
+These variables help identify how players interact with gaming.
+________________________________________
+3. Financial / monetization information
+The dataset also contains:
+•	Monthly spending
+•	Revenue-related information
+•	Lootbox openings
+•	Gaming-related spending behavior
+This allows us to analyze the financial side of gaming behavior.
+________________________________________
+4. Health and lifestyle information
+The dataset contains indicators such as:
+•	Sleep hours
+•	Social interaction hours
+•	Exercise frequency
+•	Loneliness score
+•	Stress score
+•	Anxiety level
+•	Dopamine dependency index
+These variables allow us to examine the relationship between gaming behavior and lifestyle/mental-health indicators.
+________________________________________
+5. Productivity-related information
+There are also variables such as:
+•	Productivity drop percentage
+•	Absenteeism days
+These help analyze the potential impact of gaming behavior on productivity and regular responsibilities.
 
